@@ -1,15 +1,15 @@
 {
   "name": "i18next-async-storage-backend",
-  "version": "1.0.2",
-  "description": "caching layer backend for i18next using react native async storage",
+  "version": "1.0.0",
+  "description": "Caching layer backend for i18next using react native async storage",
   "main": "./index.js",
   "jsnext:main": "dist/es/index.js",
   "keywords": [
     "i18next",
     "i18next-backend"
   ],
-  "homepage": "https://github.com/timbrandin/i18next-async-storage-backend",
-  "bugs": "https://github.com/timbrandin/i18next-async-storage-backend/issues",
+  "homepage": "https://github.com/AlissonEnz/i18next-async-storage-backend",
+  "bugs": "https://github.com/AlissonEnz/i18next-async-storage-backend/issues",
   "dependencies": {},
   "devDependencies": {
     "babel-cli": "6.23.0",
@@ -44,9 +44,10 @@
     "preversion": "npm run build && git push",
     "postversion": "git push && git push --tags"
   },
-  "author": [
+  "author": "Tim Brandin <tim.brandin@gmail.com> (https://github.com/timbrandin)",
+  "contributors": [
     "Jan Mühlemann <jan.muehlemann@gmail.com> (https://github.com/jamuhl)",
-    "Tim Brandin <tim.brandin@gmail.com> (https://github.com/timbrandin)"
+    "Alisson Enz <alisson@enzrossi.com.br> (https://enzrossi.com.br)"
   ],
   "license": "MIT"
 }
